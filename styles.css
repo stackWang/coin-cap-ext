@@ -1,0 +1,19 @@
+#system-info-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #dee2e6;
+    padding: 5px;
+    box-sizing: border-box;
+    z-index: 9999;
+    text-align: center;
+    height: 30px;
+    font-size: 12px;
+    font-family: microsoft yahei;
+    background-color: #fcffe0;
+}
+
+#system-info-bar span {
+    margin-right: 20px;
+}

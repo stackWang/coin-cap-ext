@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Coin Price Monitor",
+  "version": "1.0",
+  "description": "Monitor cryptocurrency prices in real-time and notify when they exceed preset thresholds.",
+  "permissions": [
+    "cookies",
+    "webRequest",
+    "activeTab",
+    "notifications",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png"
+    }
+  }
+}
