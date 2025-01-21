@@ -8,9 +8,9 @@
 数据从coincap页面接口调取，币安的数据也是从这个平台来的
 
 ### 插件弹窗展示效果
-![截图](https://github.com/stackWang/coincap-ext/blob/main/coin.png)
+![截图](https://github.com/stackWang/coin-cap-ext/blob/main/coin.png)
 
 ### 实时监控虚拟币行情，实时推送价格变化情况
-![截图](https://github.com/stackWang/coincap-ext/blob/main/notification.png)
+![截图](https://github.com/stackWang/coin-cap-ext/blob/main/notification.png)
 
 ## 有额外开发需求的可以联系我，+v：wcl9403
